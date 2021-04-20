@@ -1,0 +1,18 @@
+body{
+    background-color: gray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3, h1{
+    color: lightblue;
+    font-weight: bold;
+}
+.mypropertis{
+    color: yellow;
+}
+.gump{
+    color: red;
+}
+hr{
+    border-color: #094809;
+}
