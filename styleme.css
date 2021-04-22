@@ -16,3 +16,8 @@ h3, h1{
 hr{
     border-color: #094809;
 }
+ul li{
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid red;
+}
