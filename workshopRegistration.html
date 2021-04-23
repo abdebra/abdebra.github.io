@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="workshop.css">
+    
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+        <h1>Workshop Registration</h1>
+        <hr>
+
+        <div class="formgroup">
+          <div class="registration">
+            <h3>Registration while seats are available</h3>
+
+            <label class="lable" for="fname">firstNaam<span class="after">*</span>
+                <input type="text" class="form-control" id="fname" name="fname" placeholder="firstNaam" required="true"> 
+            </label><br>
+            <label class="lable" for="lname">LastName<span class="after">*</span>
+                <input type="text" class="form-control" id="lname" name="lname" placeholder="LastName" required="true"> 
+            </label><br>
+            <label class="lable" for="institution">CompanyInistitution<span class="after">*</span>
+                <input type="text" class="form-control" id="institution" name="institution" placeholder="CompanyInistitution" required="true"> 
+            </label><br>
+            <label class="lable" for="address">Address<span class="after">*</span>
+                <textarea class="form-control" id="address" name="address" placeholder="Address" required="true" rows ="4" cols = "25"></textarea> 
+            </label><br>
+            <label class="lable" for="contry">Country
+                <select name="country" id="country">
+                    <option value="ethopia">ethopia</option>
+                    <option value="America">America</option>
+                    <option value="china">china</option>
+                    <option value="china">china</option>
+                    <option value="kenya">kenya</option>
+                    <option value="somalia">somalia</option>
+                </select>
+            </label><br>
+            <label class="lable" for="state">State
+                <select name="state" id="state">
+                    <option value="Iowa">Iowa</option>
+                    <option value="miami">miami</option>
+                    <option value="minnesota">minnesota</option>
+                    <option value="chicago">chicago</option>
+                    <option value="texas">texas</option>
+                    <option value="kansas">kansas</option>
+                </select> 
+            </label><br>
+            <label class="lable" for="city">City
+                <select name="city" id="city">
+                    <option value="fairfield">fairfield</option>
+                    <option value="fairfield">fairfield</option>
+                    <option value="fairfield">fairfield</option>
+                    <option value="fairfield">fairfield</option>
+                    <option value="fairfield">fairfield</option>
+                    <option value="fairfield">fairfield</option>
+                </select> 
+            </label><br>
+            <label class="lable" for="email">Email<span class="after">*</span>
+                <input type="email" class="form-control" name="email" placeholder="Email" required="true"> 
+            </label><br>
+            <label class="lable" for="Phone">Phone<span class="after">*</span>
+                <input type="text" class="form-control" name="Phone" placeholder="Phone" required="true"> 
+            </label><br>
+          </div>
+
+          <div class="lunch">
+            <h3>Lunch</h3>
+
+            <label class="lable" for="Mpref">Meal Prefrance
+                <select name="city" id="city">
+                    <option value="vegeterian">vegeterian</option>
+                    <option value="fairfield">fairfield</option>
+                    <option value="fairfield">fairfield</option>
+                    <option value="fairfield">fairfield</option>
+                    <option value="fairfield">fairfield</option>
+                    <option value="fairfield">fairfield</option>
+                </select> 
+            </label><br>
+            <p>Payement Details</p>
+           <ul>
+               <li>
+            <input type="checkbox" id="pmocashde">
+            <label class="lable" for="pmode ">cash
+             </label><br>
+            </li>
+            <li>
+                <input type="checkbox" id="cheque">
+                <label class="lable" for="cheque ">cheque
+            </label><br>
+        </li>
+        <li>
+            <input type="checkbox" id="DemanDraft">
+            <label class="lable" for="DemanDraft ">DemanDraft
+        </label><br>
+    </li>
+    </ul>
+
+    <label class="lable" for="checkno">DD/ChequeNo
+        <input type="text" class="form-control" name="checkno" placeholder="ChequeNo" required="true"> 
+    </label><br>
+    <label class="lable" for="drawn">Drawn(Bank Name)
+        <input type="text" class="form-control" name="drawn" placeholder="Bank name" required="true"> 
+    </label>  <br>  
+    <label class="lable" for="payableat">Payable at
+        <input type="text" class="form-control" name="payableat" placeholder="payable at" required="true"> 
+    </label><br>
+
+          </div>
+
+        </div>
+        <footer>
+            <button class="btn" type="submit" >Register</button>
+            <input class="btn" type="reset" >
+
+        </footer>
+    </form>
+</body>
+</html>

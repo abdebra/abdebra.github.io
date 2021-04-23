@@ -1,0 +1,66 @@
+.formgroup{
+    display: flex;
+justify-content: space-evenly;  
+align-items: stretch;
+background-color: aliceblue; 
+ font-family: ' Alternates', serif;
+ padding: 10px;
+
+}
+
+footer{
+	text-align: center; 
+    height: 100px;
+	background-color: #9685BA;
+	padding-top: 30px;
+    background-color: rgb(241, 241, 241);
+
+
+
+
+}
+h1{
+    color: lightblue;
+   text-align: center;
+	font-family: 'Montez', cursive;
+}
+h3{
+    /* /* font-family: 'Montserrat Alternates', sans-serif; */
+	font-family: 'Montez', cursive;
+}
+.required {
+    color: red;
+  }
+  .registration{
+      padding: 30px;
+  }
+  
+   label{
+    margin: 10px;
+}
+input{
+    margin: 10px;
+} 
+ul li{
+    list-style: none;
+}
+
+.lunch{
+    background-color: rgb(206, 220, 231);
+    padding: 50px;
+    border-radius: 25px 25px;
+}
+.registration{
+    background-color: rgb(206, 220, 231);
+    border-radius: 25px 25px;
+    padding: 50px;
+   
+}
+.btn{
+    padding: 15px 32px;
+    cursor: pointer;
+    color: white;
+    background-color: #4CAF50;    
+}
+  body{
+  }
