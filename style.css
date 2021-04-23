@@ -12,7 +12,7 @@
 
 
 header{
-	background-color:cornflowerblue;
+	background-color:rgb(140, 161, 199);
 	/* width: 100%; E4F9F5*/
 	color: #80ffff ;
 	font-size: 20px;
@@ -24,7 +24,7 @@ html {
 body { 
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
-	color: #555753; 
+	color: #373a35; 
 	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
 	margin: 0; 
 	padding: 0;
@@ -78,7 +78,7 @@ header h1 {
 	/* background: transparent url(http://csszengarden.com/001/h1.gif) no-repeat top left; */
 	margin-top: 0px;
 	display: block;
-	width: 19px;
+	width: 300px;
 	height: 80px;
 	float: right;
 
@@ -110,12 +110,16 @@ header {
 }
 .main{
 	
-	justify-content: space-between;
-	flex-direction: column;
-	align-items: center;
-	flex-flow: row nowrap ;
-	align-content: space-around; 
+	display: grid;
+	grid-template-columns: repeat(2, 35fr);
+  column-gap: 30px;
+  row-gap:inherit;
 }
+.explanation{
+background-color: rgb(241, 183, 183);
+margin: 10px;
+border-radius: 5px;
+padding: 10px;}
 
 .summary {
 	clear: both; 
@@ -178,7 +182,7 @@ footer a:link, footer a:visited {
 	/* margin: 10px;  */
 	margin-top: 150px; 
 	width: 130px; 
-	background-color: tomato;
+	/* background-color: tomato; */
 	}
 .sidebar h3.select { 
 	background: transparent url(http://csszengarden.com/001/h3.gif) no-repeat top left; 
